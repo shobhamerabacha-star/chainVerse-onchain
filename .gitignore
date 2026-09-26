@@ -9,9 +9,7 @@ Cargo.lock
 **/*.wasm.gz
 
 # Environment files (contain secrets)
-.env
 .env.testnet
-.env.local
 .env.*.local
 !.env.testnet.example
 !.env.example
@@ -21,7 +19,6 @@ Cargo.lock
 .stellar/
 
 # Editor
-.vscode/
 .idea/
 .vs
 *.swp
@@ -42,3 +39,4 @@ Cargo.lock
 *.scratch.rs
 .codex
 scratch/
+config.bat
